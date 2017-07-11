@@ -1,7 +1,7 @@
 # 支持的标签，以及对应的 `Dockerfile` 
 
--	[`7.0.78-jre7`, `7.0.78`, `7` (*7/jre7/Dockerfile*)](https://github.com/dfengwei/docker-tomcat/blob/master/7/jre7/Dockerfile)
--	[`8.5.15-jre8`, `8.5.15`, `8.5`, `8`, `latest` (*8.5/jre8/Dockerfile*)](https://github.com/dfengwei/docker-tomcat/blob/master/8.5/jre8/Dockerfile)
+-	[`7` (*7/Dockerfile*)](https://github.com/dfengwei/docker-tomcat/blob/master/7/jre7/Dockerfile)
+-	[`8.5` (*8.5/Dockerfile*)](https://github.com/dfengwei/docker-tomcat/blob/master/8.5/jre8/Dockerfile)
 
 # 快速参考
 
