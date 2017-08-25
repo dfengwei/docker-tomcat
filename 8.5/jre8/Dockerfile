@@ -12,7 +12,7 @@ WORKDIR $CATALINA_HOME
 RUN set -x \
 	\
 	# 下载Tomcat压缩文件
-	&& wget -O tomcat.tar.gz 'https://www.apache.org/dyn/closer.cgi?action=download&filename=tomcat/tomcat-8/v8.5.16/bin/apache-tomcat-8.5.16.tar.gz' \
+	&& wget -O tomcat.tar.gz 'https://www.apache.org/dyn/closer.cgi?action=download&filename=tomcat/tomcat-8/v8.5.20/bin/apache-tomcat-8.5.20.tar.gz' \
 	# 解压
 	&& tar -xvf tomcat.tar.gz --strip-components=1 \
 	# 删除供Windows系统使用的.bat文件
