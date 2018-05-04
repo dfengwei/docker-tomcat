@@ -34,9 +34,8 @@ $ docker run -d --name tomcat-myapp -p 8888:8080 \
 	dfengwei/docker-tomcat:latest
 ```
 
-```
 注意：myapp的日志文件输出路径须为相对路径：logs（对应的绝对路径为：{$CATALINA_HOME}/logs）。
-```
+
 
 - 参考本镜像的Dockerfile，制作自己的镜像:
  1. 将对应版本的Dockerfile下载至本地。
