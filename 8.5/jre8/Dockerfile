@@ -25,7 +25,7 @@ RUN set -x \
 	&& ln -sf /usr/share/zoneinfo/${TIME_ZONE} /etc/localtime \
 	\
 	# 处理tomcat启动慢问题（随机数产生器初始化过慢）
-	&& sed -i "s#securerandom.source=file:/dev/random#securerandom.source=file:/dev/./urandom#g" $JAVA_HOME/jre/lib/security/java.security \
+	#&& sed -i "s#securerandom.source=file:/dev/random#securerandom.source=file:/dev/./urandom#g" $JAVA_HOME/jre/lib/security/java.security \
 	\
 	# 启用gzip压缩
 	&& sed -i 's/\(<Connector port="8080" protocol="HTTP\/1.1"\)/\1 compression="on" /' conf/server.xml
